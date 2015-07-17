@@ -1,0 +1,15 @@
+{
+    "combineOnSave": false,
+    "combine": [
+        {
+            "output": "assets/js/materialize.js",
+            "files": [
+                "assets/js/materialize/hammer.min.js",
+                "assets/js/materialize/jquery.hammer.js",
+                "assets/js/materialize/velocity.min.js",
+                "assets/js/materialize/waves.js",
+                "assets/js/materialize/sideNav.js"
+            ]
+        }
+    ]
+}
