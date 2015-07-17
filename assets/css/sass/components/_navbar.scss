@@ -11,16 +11,22 @@ nav {
   .nav-wrapper {
     position: relative;
     height: 100%;
+		padding: 0 10px;
 
     i {
       display: block;
       font-size: 2rem;
+			padding: 0 16px;
+			
+			@media #{$medium-and-down} {
+				padding: 0 10px;
+			}
     }
   }
 
-  @media #{$large-and-up} {
-    a.button-collapse { display: none; }
-  }
+//  @media #{$large-and-up} {
+//    a.button-collapse { display: none; }
+//  }
 
 
   // Collapse button
@@ -40,11 +46,11 @@ nav {
 
   // Logo
   .brand-logo {
-    position: absolute;
+//    position: absolute;
     color: $navbar-font-color;
     display: inline-block;
     font-size: $navbar-brand-font-size;
-    padding: 0;
+    padding: 0 10px;
     white-space: nowrap;
 
     &.center {
@@ -52,10 +58,10 @@ nav {
       @include transform(translateX(-50%));
     }
 
-    @media #{$medium-and-down} {
-      left: 50%;
-      @include transform(translateX(-50%));
-    }
+//    @media #{$medium-and-down} {
+//      left: 50%;
+//      @include transform(translateX(-50%));
+//    }
 
     &.right {
       right: 0.5rem;
