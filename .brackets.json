@@ -1,0 +1,13 @@
+{
+    "path": {
+        "assets/css/sass/materialize.scss": {		
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../",
+                "includePaths": ["components/"],
+                "sourceComments": false,
+                "outputStyle": "nested" 
+            }
+        }
+    }
+}
