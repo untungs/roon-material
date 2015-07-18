@@ -298,24 +298,6 @@ body::-webkit-selection, body::-moz-selection, body::-o-selection, body::selecti
     color: #fff;
     background: #909396
 }
-a {
-    text-decoration: none;
-    outline: none;
-    -webkit-transition-property: background-color, color;
-    -moz-transition-property: background-color, color;
-    -o-transition-property: background-color, color;
-    transition-property: background-color, color;
-    -webkit-transition-duration: 0.2s;
-    -moz-transition-duration: 0.2s;
-    -o-transition-duration: 0.2s;
-    transition-duration: 0.2s
-}
-a:hover {
-    color: #21272d
-}
-a:active {
-    outline: none
-}
 [data-icon]:before {
     font-family: 'Pictos Custom';
     content: attr(data-icon)

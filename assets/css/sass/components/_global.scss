@@ -27,9 +27,16 @@ ul {
 a {
 	color: $link-color;
 	text-decoration: none;
-
+	
+  @include transition-property(background-color, color);
+  @include transition-duration(0.2s);
+	
   // Gets rid of tap active state
   -webkit-tap-highlight-color: transparent;
+	
+	&:hover {
+		color: $link-hover-color;
+	}
 }
 
 

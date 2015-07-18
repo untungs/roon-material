@@ -93,7 +93,19 @@ ul {
 a {
   color: #FF5252;
   text-decoration: none;
+  -webkit-transition-property: background-color, color;
+  -moz-transition-property: background-color, color;
+  -o-transition-property: background-color, color;
+  -ms-transition-property: background-color, color;
+  transition-property: background-color, color;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  -ms-transition-duration: 0.2s;
+  transition-duration: 0.2s;
   -webkit-tap-highlight-color: transparent; }
+  a:hover {
+    color: #D50000; }
 
 .valign-wrapper {
   display: -webkit-box;
@@ -340,7 +352,7 @@ nav {
     float: left;
     position: relative;
     z-index: 1;
-    height: 56px; }
+    height: 100%; }
     nav .button-collapse i {
       font-size: 2.7rem;
       height: 56px;

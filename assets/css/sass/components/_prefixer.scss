@@ -360,7 +360,7 @@
     -ms-transition-duration: $duration;
     transition-duration: $duration;
 }
-@mixin transition-property($property:all) {
+@mixin transition-property($property...) {
     -webkit-transition-property: $property;
     -moz-transition-property: $property;
     -o-transition-property: $property;
