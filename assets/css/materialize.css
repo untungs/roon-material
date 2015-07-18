@@ -352,7 +352,14 @@ nav {
     float: left;
     position: relative;
     z-index: 1;
-    height: 100%; }
+    height: 100%;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: #FFF; }
+    nav .button-collapse:focus {
+      outline: none;
+      color: #DDD; }
     nav .button-collapse i {
       font-size: 2.7rem;
       height: 56px;
