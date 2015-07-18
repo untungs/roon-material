@@ -1,8 +1,8 @@
-# Roon
+# Roon Material
 
-The Roon theme for [Ghost](http://github.com/tryghost/ghost/).
+The Roon Material theme for [Ghost](http://github.com/tryghost/ghost/), based on [Roon](https://github.com/TryGhost/Roon) theme.
 
-To download, visit the [releases](https://github.com/TryGhost/Roon/releases) page. See the [demo](https://roon.ghost.io).
+This theme is using [Materialize CSS](http://materializecss.com) framework, and it's currently under development.
 
 ## Font Options
 
@@ -24,14 +24,7 @@ For the serif font, the `<body>` element should look like this:
 <body class="serif {{body_class}} {{#is 'index, tag, author'}}user{{/is}} {{#is 'post'}}{{#unless post.image}}noimage{{/unless}}{{/is}}">
 ```
 
-## Colour Options
-
-This theme uses an accent colour for links and the border at the top of pages.
-
-To change this colour, you need to edit [assets/css/screen.css](https://github.com/TryGhost/Roon/blob/master/assets/css/screen.css).
-
-There are only two values you need to change, conveniently **located at the very top of the file**.
-
 ## Copyright & License
 
-Copyright (c) 2013-2015 Sam Soffes & Ghost Foundation - Released under the [MIT license](LICENSE).
+Copyright (c) 2015 Untung Suryono.
+Original Copyright (c) 2013-2015 Sam Soffes & Ghost Foundation - Released under the [MIT license](LICENSE).
