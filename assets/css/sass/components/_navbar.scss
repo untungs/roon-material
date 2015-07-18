@@ -1,10 +1,12 @@
-nav {
+nav.top-nav {
   color: $navbar-font-color;
   @extend .z-depth-1;
   background-color: $primary-color;
   width: 100%;
   height: $navbar-height-mobile;
   line-height: $navbar-height-mobile;
+  position: relative;
+  z-index: 1;
 
   a { color: $navbar-font-color; }
 
